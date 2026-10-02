@@ -1,0 +1,2 @@
+add_executable(hauling_cli main.cpp)
+target_link_libraries(hauling_cli PRIVATE hauling_core)
